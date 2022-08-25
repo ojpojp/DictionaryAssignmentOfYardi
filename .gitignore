@@ -11,3 +11,4 @@
 /src/DictionaryAssignmentOfYardiTest/obj
 /src/DictionaryAssignmentOfYardi/bin/Debug/net6.0
 /src/DictionaryAssignmentOfYardiTest/bin/Debug/net6.0
+*.user
