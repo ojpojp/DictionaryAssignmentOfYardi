@@ -1,0 +1,13 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/src/.vs
+/src/DictionaryAssignmentOfYardi/bin/Release/net6.0
+/src/DictionaryAssignmentOfYardi/obj/Release/net6.0
+/src/DictionaryAssignmentOfYardi/obj
+/src/DictionaryAssignmentOfYardiTest/bin/Release/net6.0
+/src/DictionaryAssignmentOfYardiTest/obj/Release/net6.0
+/src/DictionaryAssignmentOfYardiTest/obj
+/src/DictionaryAssignmentOfYardi/bin/Debug/net6.0
+/src/DictionaryAssignmentOfYardiTest/bin/Debug/net6.0

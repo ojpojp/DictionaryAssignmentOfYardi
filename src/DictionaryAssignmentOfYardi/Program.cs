@@ -11,12 +11,10 @@ int length = string.IsNullOrWhiteSpace(lengthStr) ? DEFAULT_LENGTH : Convert.ToI
 
 DateTime startTime = DateTime.Now;
 
-var wordBreaker = new DictionaryAssignmentOfYardi.Biz.WordBreaker();
-wordBreaker.InitByFile(filePath, length);
+var wordBreaker = new DictionaryAssignmentOfYardi.Biz.WordBreaker(filePath, length);
 DateTime init_endTime = DateTime.Now;
 
 //var compositeWords = wordBreaker.GetCompositeWords(StringComparison.OrdinalIgnoreCase);   // I am not sure if it need ignore case
-//var compositeWords = await wordBreaker.GetCompositeWordsAsync();
 
 var compositeWords = wordBreaker.GetCompositeWords();
 DateTime break_endTime = DateTime.Now;
