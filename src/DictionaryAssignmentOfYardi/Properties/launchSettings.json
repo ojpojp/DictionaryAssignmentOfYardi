@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DictionaryAssignmentOfYardi": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Code\\Others\\DictionaryAssignmentOfYardi\\requirement\\dictionary.txt 6"
+    }
+  }
+}
